@@ -15,9 +15,9 @@
 <body>
     <nav>
         <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a>
-        <a href="{{ '/experience/' | relative_url }}" class="{% if page.url contains '/experience' %}active{% endif %}">Experience</a>
-        <a href="{{ '/projects/' | relative_url }}" class="{% if page.url contains '/projects' %}active{% endif %}">Projects</a>
-        <a href="{{ '/blogs/' | relative_url }}" class="{% if page.url contains '/blogs' %}active{% endif %}">Blogs</a>
+        <a href="{{ '/experience/' | relative_url }}" class="{% if page.url contains '/experience/' %}active{% endif %}">Experience</a>
+        <a href="{{ '/projects/' | relative_url }}" class="{% if page.url contains '/projects/' %}active{% endif %}">Projects</a>
+        <a href="{{ '/blogs/' | relative_url }}" class="{% if page.url contains '/blogs/' %}active{% endif %}">Blogs</a>
     </nav>
     <div class="container">
         {{ content }}
