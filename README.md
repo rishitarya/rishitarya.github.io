@@ -69,25 +69,4 @@
 
 ---
 
-## 🎭 Positions of Responsibility
-
-### Joint General Secretary | Society of Chemical Engineers  
-- Organized skill development workshops for **300+ students**.  
-- Managed teams for various events and the **annual departmental fest (Osmoze)**.  
-
----
-
-## 🏆 Extracurricular Activities  
-
-- 🏅 **3rd Place** - *Analyticity (Data Analytics Event)* - Technex’21, IIT BHU  
-- 🏆 **1st Place** - *Street Play Event* - Riwayat’20 (Annual Fest) - NLU Lucknow  
-
----
-
-## 📌 How to View This Resume Online
-You can view this resume on **GitHub Pages** by visiting:  
-[https://yourusername.github.io/your-repository](https://yourusername.github.io/your-repository)  
-
----
-
 ⭐ **Feel free to connect with me!**
