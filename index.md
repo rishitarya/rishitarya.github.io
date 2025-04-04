@@ -1,3 +1,10 @@
+---
+layout: default
+title: Home
+---
+
+# Hi, I am Rishit Arya
+
 <div style="display: flex; align-items: center; gap: 20px; justify-content: center; flex-wrap: wrap;">
 
   <img src="assets/images/linkedin-pic.jpeg" alt="Rishit Arya" style="border-radius: 50%; width: 150px; height: 150px;">
