@@ -5,10 +5,7 @@
   <div style="max-width: 500px; text-align: left;">
     <p><strong>Rishit Arya</strong>, Data Analyst at Walmart Global Tech.</p>
     <p>
-      I specialize in delivering insights from data. Explore my work across the
-      <a href="/experience/">Experience</a>,
-      <a href="/projects/">Projects</a>, and
-      <a href="/blogs/">Blogs</a> pages.
+      I specialize in delivering insights from data. Explore my work across the pages.
     </p>
     <p>
       📫 Connect with me:  
@@ -19,6 +16,8 @@
   </div>
 
 </div>
+
+
 
 ---
 
