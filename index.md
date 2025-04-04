@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: center; gap: 20px; justify-content: center; flex-wrap: wrap;">
 
-  <img src="assets/images/profile.jpg" alt="Rishit Arya" style="border-radius: 50%; width: 150px; height: 150px;">
+  <img src="assets/images/linkedin-pic.jpeg" alt="Rishit Arya" style="border-radius: 50%; width: 150px; height: 150px;">
 
   <div style="max-width: 500px; text-align: left;">
     <p><strong>Rishit Arya</strong>, Data Analyst at Walmart Global Tech.</p>
