@@ -8,7 +8,7 @@ title: Home
 
 <div style="display: flex; align-items: center; gap: 20px; justify-content: center; flex-wrap: wrap;">
 
-  <img src="assets/images/linkedin-pic.jpeg" alt="Rishit Arya" style="border-radius: 50%;; width: 150px; height: 150px;margin-left: -20px;margin-right: 50px;">
+  <img src="assets/images/linkedin-pic.jpeg" alt="Rishit Arya" style="border-radius: 50%;; width: 200px; height: 200px;margin-left: -20px;margin-right: 50px;">
 
   <div style="max-width: 500px; text-align: left;">
     <p>
