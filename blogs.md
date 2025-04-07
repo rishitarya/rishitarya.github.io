@@ -5,7 +5,7 @@ title: Blogs
 
 ## Some of my Medium Blogs
 
-<img src="assets/images/p-value.webp" alt="Medium Article" style="fwidth: 800px; height: 300px;margin-right: 50px;">
+<img src="assets/images/p-value.webp" alt="Medium Article" style="fwidth: 600px; height: 300px;margin-right: 50px;">
 #### <a href="https://medium.com/the-modern-scientist/p-value-and-everything-everywhere-all-at-once-explained-504027326bbf" target="_blank">p-value and “Everything Everywhere All At Once; explained!</a>
 
 <img src="assets/images/laplace demon.jpg" alt="Medium Article" style="idth: 800px; height: 300px;margin-right: 50px;">
