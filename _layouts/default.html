@@ -5,20 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <style>
-        body { font-family: Arial, sans-serif; }
-        nav { background: #ffffff; padding: 10px; text-align: center; }
-        nav a { color: black; margin: 10px; text-decoration: none; font-size: 18px; }
-        nav a:active { border-bottom: 3px solid blue; }
-        .container { max-width: 800px; margin: auto; padding: 20px; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #e0e0e0; /* page grey */
+            color: #000;
+            margin: 0;
+        }
+
+        nav { 
+            background: #b0b0b0; /* steel grey navbar */
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #999;
+        }
+
+        nav a { 
+            color: black; 
+            margin: 10px; 
+            text-decoration: none; 
+            font-size: 18px; 
+            padding: 6px 10px;
+            border-radius: 4px;
+            transition: background 0.2s ease, color 0.2s ease;
+        }
+
+        nav a:hover {
+            background-color: #9a9a9a; /* hover darker steel */
+            color: white;
+        }
+
+        nav a.active {
+            background-color: #808080; /* highlighted active page */
+            color: white;
+            border-bottom: 3px solid blue;
+        }
+
+        .container { 
+            max-width: 800px; 
+            margin: 40px auto; 
+            padding: 20px; 
+            background: white; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
     </style>
 </head>
 <body>
     <nav>
-        <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
-        <a href="/experience" class="{% if page.url == 'https://rishitarya.github.io/experience' %}active{% endif %}">Experience</a>
-        <a href="/projects" class="{% if page.url == '/projects/' %}active{% endif %}">Projects</a>
-        <a href="/blogs" class="{% if page.url == '/blogs/' %}active{% endif %}">Blogs</a>
+        <a href="index.html" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+        <a href="experience.html" class="{% if page.url == '/experience.html' or page.url == '/experience/' %}active{% endif %}">Experience</a>
+        <a href="projects.html" class="{% if page.url == '/projects.html' or page.url == '/projects/' %}active{% endif %}">Projects</a>
+        <a href="blogs.html" class="{% if page.url == '/blogs.html' or page.url == '/blogs/' %}active{% endif %}">Blogs</a>
     </nav>
+
     <div class="container">
         {{ content }}
     </div>
