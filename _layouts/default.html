@@ -28,3 +28,38 @@
             padding: 6px 10px;
             border-radius: 4px;
             transition: background 0.2s ease, color 0.2s ease;
+        }
+
+        nav a:hover {
+            background-color: #9a9a9a; /* darker hover */
+            color: white; /* optional: better contrast on hover */
+        }
+
+        nav a.active {
+            border-bottom: 3px solid blue; /* underline current page */
+            color: white; /* optional: highlight active page */
+        }
+
+        .container { 
+            max-width: 800px; 
+            margin: 40px auto; 
+            padding: 20px; 
+            background: white; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+        <a href="{{ site.baseurl }}/experience/" class="{% if page.url == '/experience/' %}active{% endif %}">Experience</a>
+        <a href="{{ site.baseurl }}/projects/" class="{% if page.url == '/projects/' %}active{% endif %}">Projects</a>
+        <a href="{{ site.baseurl }}/blogs/" class="{% if page.url == '/blogs/' %}active{% endif %}">Blogs</a>
+    </nav>
+
+    <div class="container">
+        {{ content }}
+    </div>
+</body>
+</html>
