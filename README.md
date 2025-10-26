@@ -1,6 +1,6 @@
 # Rishit Arya
 
-## Data Science at OcienFriends  
+## Data Science at OceanFriends  
 
 📧 aryarishit312@gmail.com  
 📞 +91-7999647658  
