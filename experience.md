@@ -1,6 +1,9 @@
 ## 💼 Experience
 
-### Walmart Global Tech | Data Analyst II _(July 2023 – Present)_
+### OceanFriends.ai | Data Scientist _(July 2025 – present)_
+- Designing automated data pipelines for the website and creating an AI-powered chatbot that delivers data-driven insights directly from the analytics dashboard.
+
+### Walmart Global Tech | Data Analyst II _(July 2023 – July 2025)_
 
 #### **Holiday Scaling**
 - Designed a structure for optimal resource recommendation for apps during sales events.  
