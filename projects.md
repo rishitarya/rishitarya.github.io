@@ -11,3 +11,8 @@
 ### [Collaborative Filtering Book Recommendation System](https://github.com/rishitarya/Book-Recommendation/tree/main)
 - Built a **book recommendation system** with **1.3 lakh ratings & 68,000+ books**.  
 - Used **PCA & K-Means clustering** to segment users based on preferences.  
+
+### [Personal Expense Tracker Dashobard](https://github.com/rishitarya/ETAPP/tree/main)
+- Scraped and Extracted information from Gmail with debit information  
+- Classified merchant into categories with Google search and Naive Bayer Classifier
+- Developed Looker dashboard updating everyday using github actions
